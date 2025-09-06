@@ -18,3 +18,19 @@ p {
   margin: 10px 20px;
   font-size: 16px;
 }
+
+.highlight {
+  color: #e8491d;
+}
+
+#intro {
+  background: #e2e2f1;
+  padding: 20px;
+  margin: 20px;
+}
+
+#features {
+  background: #d1d1e0;
+  padding: 20px;
+  margin: 20px;
+}
