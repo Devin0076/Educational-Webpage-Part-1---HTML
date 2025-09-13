@@ -10,7 +10,7 @@ body {
 
 h1, h2, h3 {
   text-align: center;
-  color: #2d2d6b;
+  color: #1c1c50;
 }
 
 
@@ -20,17 +20,17 @@ p {
 }
 
 .highlight {
-  color: #e8491d;
+  color: #b22222;
 }
 
 #intro {
-  background: #e2e2f1;
+  background: #d6d6eb;
   padding: 20px;
   margin: 20px;
 }
 
 #features {
-  background: #d1d1e0;
+  background: #c0c0d9;
   padding: 20px;
   margin: 20px;
 }
@@ -42,7 +42,7 @@ p {
 }
 
 .flex-item {
-  background: #c1c1d0;
+  background: #a9a9c9;
   padding: 20px;
   margin: 10px;
   flex: 1;
