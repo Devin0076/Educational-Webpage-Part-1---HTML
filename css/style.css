@@ -34,22 +34,24 @@ p {
   padding: 20px;
   margin: 20px;
 }
-
+/*Flexbox was replaced with Bootstrap grid system*/
 .flex-container {
-  display: flex;
-  justify-content: space-around;
+  /*display: flex;*/
+  /*justify-content: space-around;*/
   margin: 20px;
 }
 /*Flexbox items styling*/
 .flex-item {
-  background: #a9a9c9;
+  /*background: #a9a9c9;*/ /*Bootstrap grid system handles background*/
   padding: 20px;
   margin: 10px;
-  flex: 1;
+  /*flex: 1;*/
   text-align: center;
 }
+
+/*The media query below was commented out since Bootstrap provides responsive design*/
 /*Responsive Design for smaller screens*/
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   body {
     font-size: 14px;
   }
@@ -62,7 +64,7 @@ p {
     font-size: 18px;
   }
 /*Stack flex items vertically on smaller screens*/
-  .flex-container {
+  /*.flex-container {
     flex-direction: column;
     align-items: center;
   }
@@ -71,6 +73,5 @@ p {
     width: 90%;
     margin: 10px 0;
   }
-
 
 }
